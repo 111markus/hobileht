@@ -152,10 +152,29 @@ h2 {
   text-align: left;
 }
 
+#VM {
+  text-align: center;
+}
+
+#VM h1 {
+  padding-top: 100px;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+#VM h2 {
+  padding: 10px;
+}
+
 footer {
   color: #7e7e7e;
   padding-top: 5rem;
   padding-bottom: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
+}
+
+#VM h2 {
+  font-size: 12px;
+  color: #c8c8c8;
 }
