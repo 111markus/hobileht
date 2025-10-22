@@ -15,6 +15,18 @@ p {
   color: #fcc800;
 }
 
+.cs2-icon {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fcc800;
+  color: black;
+  width: 50px;
+  height: 45px;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 18px;
+}
+
 #kodu {
   background: url("../assets/hero.jpg") no-repeat center center/cover;
   height: 730px;
@@ -97,4 +109,11 @@ p {
   text-align: center;
   font-size: 15px;
   line-height: 1.6em;
+}
+footer {
+  color: #7e7e7e;
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
