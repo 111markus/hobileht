@@ -30,6 +30,10 @@ h2 {
   color: #fcc800;
 }
 
+.red {
+  color: #fa4141;
+}
+
 .cs2-icon {
   display: inline-flex;
   align-items: center;
@@ -132,7 +136,7 @@ h2 {
   flex: 1;
   width: 100%;
   height: 150px;
-  object-fit: cover; /* This makes video cover the container */
+  object-fit: cover;
 }
 
 .video-info {
@@ -154,6 +158,8 @@ h2 {
 
 #VM {
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 #VM h1 {
@@ -166,15 +172,175 @@ h2 {
   padding: 10px;
 }
 
-footer {
-  color: #7e7e7e;
-  padding-top: 5rem;
-  padding-bottom: 1.5rem;
-  text-align: center;
-  font-size: 0.8rem;
-}
-
 #VM h2 {
   font-size: 12px;
   color: #c8c8c8;
+}
+
+.match-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.match-card {
+  background-color: #0f0f0f;
+  border-radius: 10px;
+  border: 0.5px solid #242424;
+  padding: 20px 25px;
+  width: 500px;
+  color: white;
+  margin: 0 auto;
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.kaart {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.win {
+  background-color: #023919;
+  color: #59dc38;
+  border: 0.5px solid #59dc38;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+}
+
+.lose {
+  background-color: #280101;
+  color: #dd1f1f;
+  border: 0.5px solid #9f0000;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.date {
+  color: #b5b5b5;
+  font-size: 13px;
+  margin-bottom: 18px;
+  margin-left: 0;
+  text-align: left;
+}
+
+.match-stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.stat-item {
+  background-color: #141414;
+  border-radius: 8px;
+  padding: 10px 0;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.stat-item:first-child {
+  margin-left: 0;
+}
+
+.stat-item:last-child {
+  margin-right: 0;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #c8c8c8;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#Kontakt {
+  background-color: #030303;
+  color: #ccc;
+  border: 0.5px solid #282828;
+  padding: 35px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.kontakt-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  max-width: 220px;
+  width: 100%;
+}
+
+.kontakt-block {
+  flex: 1;
+  min-width: 250px;
+}
+
+.kontakt-block h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kontakt-block:first-child h3 {
+  top: -12px;
+  position: relative;
+}
+
+.kontakt-block p {
+  color: #b5b5b5;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ikoonid {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.ikoonid .social {
+  padding: 4px 4px;
+  background: #282828;
+  border: 0.5px solid #282828;
+  border-radius: 8px;
+  color: #c8c8c8;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.ikoonid .social:hover {
+  color: #fff;
+}
+
+footer {
+  color: #7e7e7e;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.8rem;
 }
