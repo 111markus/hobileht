@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar:first-child {
+  left: -16px;
+  position: relative;
+}
+
+.navbar {
+  flex-direction: column;
+  padding: 10px 20px;
+  padding-bottom: 30px;
+}
+
+.nav {
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav a {
+  border-bottom: #b5b5b5 solid 2.5px;
+}
+
+#kodu {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#kodu h1 {
+  padding-top: 70px;
+  width: 90%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#kodu h2 {
+  padding-top: 20px;
+  width: 60%;
+  font-size: 14px;
+}
+
+.stats-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#PH {
+  padding-top: 50px;
+}
+
+#PH h2 {
+  font-size: 14px;
+  width: 75%;
+}
+
+.video-grid .video-card:nth-child(n + 4) {
+  display: none;
+}
+
+.video-grid {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 16px;
+  padding: 20px 0;
+}
+
+.video-card {
+  width: 80%;
+}
+
+#VM {
+  padding-top: 0px !important;
+  padding-bottom: 30px;
+}
+
+#VM h2 {
+  font-size: 14px;
+  width: 75%;
+}
+
+.match-grid {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.match-grid .match-card:nth-child(n + 4) {
+  display: none;
+}
+
+.kontakt-container {
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.kontakt-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

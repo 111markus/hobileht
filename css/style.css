@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  padding: 10px 100px;
+  padding: 5px 100px;
 }
 
 .nav-left {
@@ -23,21 +23,21 @@ body {
   gap: 10px;
 }
 
-.nav-links {
+.nav {
   list-style: none;
   display: flex;
   gap: 24px;
   margin: 0;
 }
 
-.nav-links a {
+.nav a {
   color: #c8c8c8;
   text-decoration: none;
   font-size: 15px;
   transition: color 0.2s ease;
 }
 
-.nav-links a:hover {
+.nav a:hover {
   color: #fff;
 }
 
@@ -49,8 +49,8 @@ p {
 
 h2 {
   color: #c8c8c8;
+  max-width: 600px;
   margin: 0 auto;
-  width: 800px;
   padding-top: 20px;
   text-align: center;
   font-size: 15px;
@@ -79,9 +79,10 @@ h2 {
 
 #kodu {
   background: url("../assets/hero.jpg") no-repeat center center/cover;
-  height: 670px;
+  height: 100%;
   width: 100%;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 #kodu h1 {
@@ -133,6 +134,7 @@ h2 {
 }
 
 #PH {
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -142,7 +144,7 @@ h2 {
 }
 
 #PH h2 {
-  padding: 10px;
+  padding: 20px;
 }
 
 .video-grid {
@@ -150,7 +152,7 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 50px 20px 20px;
-  width: 1000px;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -179,12 +181,12 @@ h2 {
 .video-info h3 {
   margin: 0;
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .video-info p {
   margin: 2px 0 0;
-  font-size: 11px;
+  font-size: 13px;
   color: #c8c8c8;
   text-align: left;
 }
@@ -201,19 +203,9 @@ h2 {
   line-height: 1.2em;
 }
 
-#VM h2 {
-  padding: 10px;
-}
-
-#VM h2 {
-  font-size: 12px;
-  color: #c8c8c8;
-}
-
 .match-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
   gap: 20px;
   width: 90%;
   max-width: 1000px;
@@ -225,7 +217,8 @@ h2 {
   border-radius: 10px;
   border: 0.5px solid #242424;
   padding: 20px 25px;
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   color: white;
   margin: 0 auto;
 }
@@ -311,13 +304,15 @@ h2 {
 #Kontakt {
   background-color: #030303;
   color: #ccc;
-  border: 0.5px solid #282828;
+  border: 0.5px solid #0e0e0e;
   padding: 35px 60px;
   display: flex;
   justify-content: center;
 }
 
 .kontakt-container {
+  left: 70px;
+  position: relative;
   display: flex;
   justify-content: center;
   gap: 70px;
@@ -340,7 +335,7 @@ h2 {
 }
 
 .kontakt-block:first-child h3 {
-  top: -12px;
+  top: -10px;
   position: relative;
 }
 
