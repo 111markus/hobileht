@@ -10,26 +10,29 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 860px)" href="css/mobile.css"/>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 860px)"
+      href="css/mobile.css"
+    />
   </head>
   <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <div class="cs2-icon">CS2</div>
+          <span class="tiitel">Minu CS2 Statistika</span>
+        </div>
 
-<header>
-  <nav class="navbar">
-    <div class="nav-left">
-      <div class="cs2-icon"> CS2</div>
-      <span class="tiitel">Minu CS2 Statistika</span>
-    </div>
-
-    <ul class="nav">
-      <li><a href="#kodu">Kodu</a></li>
-      <li><a href="#PH">Parimad hetked</a></li>
-      <li><a href="#VM">Viimased mängud</a></li>
-      <li><a href="#Kontakt">Kontakt</a></li>
-    </ul>
-  </nav>
-
-</header>
+        <ul class="nav">
+          <li><a href="#kodu">Kodu</a></li>
+          <li><a href="#PH">Parimad hetked</a></li>
+          <li><a href="#VM">Viimased mängud</a></li>
+          <li><a href="#Kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
       <div id="kodu">
         <div class="container">
           <h1>
@@ -62,295 +65,371 @@
         </div>
       </div>
 
-    <section id="PH">
-      <h1>Minu <span class="yellow">parimad hetked</span></h1>
-      <h2>
-        Vaata minu parimaid hetki ja kõige muljetavaldamaid esitusi CS2 mängus
-      </h2>
+      <section id="PH">
+        <h1>Minu <span class="yellow">parimad hetked</span></h1>
+        <h2>
+          Vaata minu parimaid hetki ja kõige muljetavaldamaid esitusi CS2 mängus
+        </h2>
 
-      <div class="video-grid">
-        <div class="video-card">
-          <video class="video-player" controls>
-            <source src="assets/video1.mp4" type="video/mp4" />
-          </video>
-          <div class="video-info">
-            <h3>Osa montaažist</h3>
-            <p>Erinevad klipid erinevatest matšidest</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video class="video-player" controls>
-            <source src="assets/video2.mp4" type="video/mp4" />
-          </video>
-          <div class="video-info">
-            <h3>Mirage Desert Eagle</h3>
-            <p>Lasin kolmele vastasele pähe</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video class="video-player" controls>
-            <source src="assets/video3.mp4" type="video/mp4" />
-          </video>
-          <div class="video-info">
-            <h3>Vastane auto taga seda küll ei ootanud</h3>
-            <p>Lasin Dust 2s AK-47ga 2 vastast maha</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video class="video-player" controls>
-            <source src="assets/video4.mp4" type="video/mp4" />
-          </video>
-          <div class="video-info">
-            <h3>Head lasud Mirages</h3>
-            <p>Meisterlik AK-47 valdamine</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video class="video-player" controls>
-            <source src="assets/video5.mp4" type="video/mp4" />
-          </video>
-          <div class="video-info">
-            <h3>Vertigo surmamatši momendid</h3>
-            <p>Vastaste laskmine Vertigo kaardil</p>
-          </div>
-        </div>
-
-        <div class="video-card">
-          <video class="video-player" controls>
-            <source src="assets/video6.mp4" type="video/mp4" />
-          </video>
-          <div class="video-info">
-            <h3>Dust 2 surmamatši momendid</h3>
-            <p>Head lasud AK-47ga Dust 2 kaardil</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="VM">
-      <h1>Viimased <span class="yellow">mängud</span></h1>
-      <h2>Ülevaade minu viimaste matšide tulemustest ja statistikast</h2>
-
-    <div class="match-grid">
-      <div class="match-card">
-        <div class="match-header">
-          <div class="kaardi-nimi">
-            <span class="kaart">Mirage</span>
-            <span class="win">Võit</span>
-          </div>
-          <div class="score">13–7</div>
-        </div>
-        <div class="date">15. Oktoober 2025</div>
-        <div class="match-stats">
-          <div class="stat-item">
-            <div class="stat-label">
-              <i class="fa-solid fa-crosshairs"></i> Tapud
+        <div class="video-grid">
+          <div class="video-card">
+            <video class="video-player" controls>
+              <source src="assets/video1.mp4" type="video/mp4" />
+            </video>
+            <div class="video-info">
+              <h3>Osa montaažist</h3>
+              <p>Erinevad klipid erinevatest matšidest</p>
             </div>
-            <div class="stat-value">28</div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="red"><i class="fa-solid fa-skull"></span></i> Surmad</div>
-            <div class="stat-value">19</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class=yellow><i class="fa-solid fa-arrow-trend-up"></i></span> K/D</div>
-            <div class="stat-value">1.47</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="yellow"><i class="fa-solid fa-trophy"></span></i> MVP</div>
-            <div class="stat-value">5</div>
-          </div>
-        </div>
-      </div>
 
-      <div class="match-card">
-        <div class="match-header">
-          <div class="kaardi-nimi">
-            <span class="kaart">Inferno</span>
-            <span class="win">Võit</span>
-          </div>
-          <div class="score">13–10</div>
-        </div>
-        <div class="date">14. Oktoober 2025</div>
-        <div class="match-stats">
-          <div class="stat-item">
-            <div class="stat-label">
-              <i class="fa-solid fa-crosshairs"></i> Tapud
+          <div class="video-card">
+            <video class="video-player" controls>
+              <source src="assets/video2.mp4" type="video/mp4" />
+            </video>
+            <div class="video-info">
+              <h3>Mirage Desert Eagle</h3>
+              <p>Lasin kolmele vastasele pähe</p>
             </div>
-            <div class="stat-value">24</div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="red"><i class="fa-solid fa-skull"></span></i> Surmad</div>
-            <div class="stat-value">21</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class=yellow><i class="fa-solid fa-arrow-trend-up"></i></span> K/D</div>
-            <div class="stat-value">1.14</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="yellow"><i class="fa-solid fa-trophy"></span></i> MVP</div>
-            <div class="stat-value">3</div>
-          </div>
-        </div>
-      </div>
 
-      <div class="match-card">
-        <div class="match-header">
-          <div class="kaardi-nimi">
-            <span class="kaart">Dust 2</span>
-            <span class="lose">Kaotus</span>
-          </div>
-          <div class="score">9-13</div>
-        </div>
-        <div class="date">13. Oktoober 2025</div>
-        <div class="match-stats">
-          <div class="stat-item">
-            <div class="stat-label">
-              <i class="fa-solid fa-crosshairs"></i> Tapud
+          <div class="video-card">
+            <video class="video-player" controls>
+              <source src="assets/video3.mp4" type="video/mp4" />
+            </video>
+            <div class="video-info">
+              <h3>Vastane auto taga seda küll ei ootanud</h3>
+              <p>Lasin Dust 2s AK-47ga 2 vastast maha</p>
             </div>
-            <div class="stat-value">21</div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="red"><i class="fa-solid fa-skull"></span></i> Surmad</div>
-            <div class="stat-value">23</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class=yellow><i class="fa-solid fa-arrow-trend-up"></i></span> K/D</div>
-            <div class="stat-value">0.91</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="yellow"><i class="fa-solid fa-trophy"></span></i> MVP</div>
-            <div class="stat-value">2</div>
-          </div>
-        </div>
-      </div>
 
-      <div class="match-card">
-        <div class="match-header">
-          <div class="kaardi-nimi">
-            <span class="kaart">Nuke</span>
-            <span class="win">Võit</span>
-          </div>
-          <div class="score">13-11</div>
-        </div>
-        <div class="date">12. Oktoober 2025</div>
-        <div class="match-stats">
-          <div class="stat-item">
-            <div class="stat-label">
-              <i class="fa-solid fa-crosshairs"></i> Tapud
+          <div class="video-card">
+            <video class="video-player" controls>
+              <source src="assets/video4.mp4" type="video/mp4" />
+            </video>
+            <div class="video-info">
+              <h3>Head lasud Mirages</h3>
+              <p>Meisterlik AK-47 valdamine</p>
             </div>
-            <div class="stat-value">26</div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="red"><i class="fa-solid fa-skull"></span></i> Surmad</div>
-            <div class="stat-value">18</div>
+
+          <div class="video-card">
+            <video class="video-player" controls>
+              <source src="assets/video5.mp4" type="video/mp4" />
+            </video>
+            <div class="video-info">
+              <h3>Vertigo surmamatši momendid</h3>
+              <p>Vastaste laskmine Vertigo kaardil</p>
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class=yellow><i class="fa-solid fa-arrow-trend-up"></i></span> K/D</div>
-            <div class="stat-value">1.44</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="yellow"><i class="fa-solid fa-trophy"></span></i> MVP</div>
-            <div class="stat-value">4</div>
+
+          <div class="video-card">
+            <video class="video-player" controls>
+              <source src="assets/video6.mp4" type="video/mp4" />
+            </video>
+            <div class="video-info">
+              <h3>Dust 2 surmamatši momendid</h3>
+              <p>Head lasud AK-47ga Dust 2 kaardil</p>
+            </div>
           </div>
         </div>
-      </div>
-    
+      </section>
+      <section id="VM">
+        <h1>Viimased <span class="yellow">mängud</span></h1>
+        <h2>Ülevaade minu viimaste matšide tulemustest ja statistikast</h2>
+
+        <div class="match-grid">
+          <div class="match-card">
+            <div class="match-header">
+              <div class="kaardi-nimi">
+                <span class="kaart">Mirage</span>
+                <span class="win">Võit</span>
+              </div>
+              <div class="score">13–7</div>
+            </div>
+            <div class="date">15. Oktoober 2025</div>
+            <div class="match-stats">
+              <div class="stat-item">
+                <div class="stat-label">
+                  <i class="fa-solid fa-crosshairs"></i> Tapud
+                </div>
+                <div class="stat-value">28</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="red"><i class="fa-solid fa-skull"></i></span>
+                  Surmad
+                </div>
+                <div class="stat-value">19</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"
+                    ><i class="fa-solid fa-arrow-trend-up"></i
+                  ></span>
+                  K/D
+                </div>
+                <div class="stat-value">1.47</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"><i class="fa-solid fa-trophy"></i></span>
+                  MVP
+                </div>
+                <div class="stat-value">5</div>
+              </div>
+            </div>
+          </div>
 
           <div class="match-card">
-        <div class="match-header">
-          <div class="kaardi-nimi">
-            <span class="kaart">Overpass
-            <span class="win">Võit</span>
-          </div>
-          <div class="score">13–9</div>
-        </div>
-        <div class="date">11. Oktoober 2025</div>
-        <div class="match-stats">
-          <div class="stat-item">
-            <div class="stat-label">
-              <i class="fa-solid fa-crosshairs"></i> Tapud
+            <div class="match-header">
+              <div class="kaardi-nimi">
+                <span class="kaart">Inferno</span>
+                <span class="win">Võit</span>
+              </div>
+              <div class="score">13–10</div>
             </div>
-            <div class="stat-value">31</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="red"><i class="fa-solid fa-skull"></span></i> Surmad</div>
-            <div class="stat-value">15</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class=yellow><i class="fa-solid fa-arrow-trend-up"></i></span> K/D</div>
-            <div class="stat-value">2.07</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="yellow"><i class="fa-solid fa-trophy"></span></i> MVP</div>
-            <div class="stat-value">7</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="match-card">
-        <div class="match-header">
-          <div class="kaardi-nimi">
-            <span class="kaart">Mirage</span>
-            <span class="lose">Kaotus</span>
-          </div>
-          <div class="score">7-13</div>
-        </div>
-        <div class="date">10. Oktoober 2025</div>
-        <div class="match-stats">
-          <div class="stat-item">
-            <div class="stat-label">
-              <i class="fa-solid fa-crosshairs"></i> Tapud
+            <div class="date">14. Oktoober 2025</div>
+            <div class="match-stats">
+              <div class="stat-item">
+                <div class="stat-label">
+                  <i class="fa-solid fa-crosshairs"></i> Tapud
+                </div>
+                <div class="stat-value">24</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="red"><i class="fa-solid fa-skull"></i></span>
+                  Surmad
+                </div>
+                <div class="stat-value">21</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"
+                    ><i class="fa-solid fa-arrow-trend-up"></i
+                  ></span>
+                  K/D
+                </div>
+                <div class="stat-value">1.14</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"><i class="fa-solid fa-trophy"></i></span>
+                  MVP
+                </div>
+                <div class="stat-value">3</div>
+              </div>
             </div>
-            <div class="stat-value">22</div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="red"><i class="fa-solid fa-skull"></span></i> Surmad</div>
-            <div class="stat-value">24</div>
+
+          <div class="match-card">
+            <div class="match-header">
+              <div class="kaardi-nimi">
+                <span class="kaart">Dust 2</span>
+                <span class="lose">Kaotus</span>
+              </div>
+              <div class="score">9-13</div>
+            </div>
+            <div class="date">13. Oktoober 2025</div>
+            <div class="match-stats">
+              <div class="stat-item">
+                <div class="stat-label">
+                  <i class="fa-solid fa-crosshairs"></i> Tapud
+                </div>
+                <div class="stat-value">21</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="red"><i class="fa-solid fa-skull"></i></span>
+                  Surmad
+                </div>
+                <div class="stat-value">23</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"
+                    ><i class="fa-solid fa-arrow-trend-up"></i
+                  ></span>
+                  K/D
+                </div>
+                <div class="stat-value">0.91</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"><i class="fa-solid fa-trophy"></i></span>
+                  MVP
+                </div>
+                <div class="stat-value">2</div>
+              </div>
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class=yellow><i class="fa-solid fa-arrow-trend-up"></i></span> K/D</div>
-            <div class="stat-value">0.92</div>
+
+          <div class="match-card">
+            <div class="match-header">
+              <div class="kaardi-nimi">
+                <span class="kaart">Nuke</span>
+                <span class="win">Võit</span>
+              </div>
+              <div class="score">13-11</div>
+            </div>
+            <div class="date">12. Oktoober 2025</div>
+            <div class="match-stats">
+              <div class="stat-item">
+                <div class="stat-label">
+                  <i class="fa-solid fa-crosshairs"></i> Tapud
+                </div>
+                <div class="stat-value">26</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="red"><i class="fa-solid fa-skull"></i></span
+                  >Surmad
+                </div>
+                <div class="stat-value">18</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"
+                    ><i class="fa-solid fa-arrow-trend-up"></i
+                  ></span>
+                  K/D
+                </div>
+                <div class="stat-value">1.44</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"><i class="fa-solid fa-trophy"></i></span>
+                  MVP
+                </div>
+                <div class="stat-value">4</div>
+              </div>
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-label"><span class="yellow"><i class="fa-solid fa-trophy"></span></i> MVP</div>
-            <div class="stat-value">2</div>
+
+          <div class="match-card">
+            <div class="match-header">
+              <div class="kaardi-nimi">
+                <span class="kaart">Overpass</span>
+                <span class="win">Võit</span>
+              </div>
+              <div class="score">13–9</div>
+            </div>
+            <div class="date">11. Oktoober 2025</div>
+            <div class="match-stats">
+              <div class="stat-item">
+                <div class="stat-label">
+                  <i class="fa-solid fa-crosshairs"></i> Tapud
+                </div>
+                <div class="stat-value">31</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="red"><i class="fa-solid fa-skull"></i></span>
+                  Surmad
+                </div>
+                <div class="stat-value">15</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"
+                    ><i class="fa-solid fa-arrow-trend-up"></i
+                  ></span>
+                  K/D
+                </div>
+                <div class="stat-value">2.07</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"><i class="fa-solid fa-trophy"></i></span>
+                  MVP
+                </div>
+                <div class="stat-value">7</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="match-card">
+            <div class="match-header">
+              <div class="kaardi-nimi">
+                <span class="kaart">Mirage</span>
+                <span class="lose">Kaotus</span>
+              </div>
+              <div class="score">7-13</div>
+            </div>
+            <div class="date">10. Oktoober 2025</div>
+            <div class="match-stats">
+              <div class="stat-item">
+                <div class="stat-label">
+                  <i class="fa-solid fa-crosshairs"></i> Tapud
+                </div>
+                <div class="stat-value">22</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="red"><i class="fa-solid fa-skull"></i></span>
+                  Surmad
+                </div>
+                <div class="stat-value">24</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"
+                    ><i class="fa-solid fa-arrow-trend-up"></i
+                  ></span>
+                  K/D
+                </div>
+                <div class="stat-value">0.92</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">
+                  <span class="yellow"><i class="fa-solid fa-trophy"></i></span>
+                  MVP
+                </div>
+                <div class="stat-value">2</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-      
-  </section>
+      </section>
 
-<section id="Kontakt">
-  <div class="kontakt-container">
-    <div class="kontakt-block">
-      <h3>
-        <span class="cs2-icon">CS2</span>
-        Minu CS2 Statistika
-      </h3>
-      <p>Minu isiklik CS2 mängu statistika ja parimad hetked. 
-      Jälgi mu arengut ja saavutusi Counter-Strike 2 mängus.</p>
-    </div>
+      <section id="Kontakt">
+        <div class="kontakt-container">
+          <div class="kontakt-block">
+            <h3>
+              <span class="cs2-icon">CS2</span>
+              Minu CS2 Statistika
+            </h3>
+            <p>
+              Minu isiklik CS2 mängu statistika ja parimad hetked. Jälgi mu
+              arengut ja saavutusi Counter-Strike 2 mängus.
+            </p>
+          </div>
 
-    <div class="kontakt-block">
-      <h3>Kontakt</h3>
-      <p><i class="fa-solid fa-envelope"></i> Tõnu@email.ee</p>
-    </div>
+          <div class="kontakt-block">
+            <h3>Kontakt</h3>
+            <p><i class="fa-solid fa-envelope"></i> Tõnu@email.ee</p>
+          </div>
 
-    <div class="kontakt-block">
-      <h3>Sotsiaalmeedia</h3>
-      <div class="ikoonid">
-        <a href="https://www.twitch.tv/shroud/" target="_blank" class="social"><i class="fa-brands fa-twitch"></i></a>
-        <a href="https://www.youtube.com/watch?v=eRXE8Aebp7s" target="_blank" class="social"><i class="fa-brands fa-youtube"></i></a>
-      </div>
-    </div>
-  </div>
-</section>
-
+          <div class="kontakt-block">
+            <h3>Sotsiaalmeedia</h3>
+            <div class="ikoonid">
+              <a
+                href="https://www.twitch.tv/shroud/"
+                target="_blank"
+                class="social"
+                ><i class="fa-brands fa-twitch"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/watch?v=eRXE8Aebp7s"
+                target="_blank"
+                class="social"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>© 2025 CS2 statistika</footer>
   </body>
 </html>
